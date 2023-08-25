@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Baumans&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+
+/* ****************************Address***************** */
+.address{
+    position: relative;
+    margin: 1rem;
+}
+.address .card{
+    border: 2px solid #AE0101;
+    height: 100%;
+    color: #AE0101;
+}
+.address .card .card-body a{
+    color: #AE0101;
+}
+.address .card:hover{
+    background: #AE0101;
+    color: #fff;
+}
+
+/* ******************************contact2******************** */
+.contact2{
+    position: relative;
+    background-color: #7B7B7B;
+}
+.contact2 .contact2_top_text h2{
+    font-size: 2.2rem;
+    color: #fff;
+    font-weight: 700;
+}
+.contact2 .contact2_top_text p{
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 400;
+}
+.contact2 .contact2_right_input .inp{
+    border: 0;
+    box-shadow: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    border-radius: 0;
+    font-size: 0.9rem;
+}
+.contact2 .contact2_right_input .btn1 button{
+    background-color: #AE0101;
+    color: #fff;
+    display: block;
+    width: 100%;
+}
+.contact2 .contact2_right_input .btn1 button:hover{
+    color: #AE0101;
+    border: 1px solid #AE0101;
+    background: transparent;
+    font-weight: 500;
+}
