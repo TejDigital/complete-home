@@ -1,5 +1,6 @@
-<?php require('includes/header.php');
+<?php 
 session_start();
+require('includes/header.php');
 ?>
 
 <!-- ****************************************contact1************************ -->
@@ -97,11 +98,10 @@ if (isset($_SESSION['cm_msg'])) {
                                 </div>
                             </div>
                             <div class="col-md-12">
-                            <label for="" style="color:#AE0101; display:block;" class="p-1 m-1 rounded text-center">Attach File here</label>
+                            <label for="" style="color:#AE0101; display:block;" class="p-1 m-1 rounded text-center">You can attache pictures of your ideas</label>
 
                                 <div class="form-group">
-
-                                    <input class="form-control border-0 shadow-none" name="files" type="file">
+                                    <input class="form-control border-0 shadow-none" name="files" type="file" required>
                                 </div>
                             </div>
                             <div class="">

@@ -67,10 +67,10 @@
             </div>
             <div class="col-md-3 d-flex align-items-center justify-content-center">
                 <div class="logos d-flex align-items-center  justify-content-center" style="gap:1rem;">
-                    <a href="#"> <i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.instagram.com/complete_home_/"> <i class="fa-brands fa-instagram"></i></a>
                     <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/completehomeindia"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/complete-home-5698b5274/"><i class="fa-brands fa-linkedin"></i></a>
                 </div>
             </div>
         </div>

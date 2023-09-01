@@ -110,7 +110,7 @@
 <!-- ----------------------location--------------------------- -->
 <script>
     function myloc(){
-        location.href ="https://www.google.com/maps/@21.1664799,81.3481677,17z?authuser=0";
+        location.href ="https://goo.gl/maps/FWQjmHDVSgSBcCGL9";
     }
 </script>
 

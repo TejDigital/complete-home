@@ -1,5 +1,6 @@
-<?php require('includes/header.php');
+<?php 
 session_start();
+require('includes/header.php');
 ?>
 <?php require('./admin/config/dbcon.php'); ?>
 

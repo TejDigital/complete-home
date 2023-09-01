@@ -1,5 +1,6 @@
-<?php require('includes/header.php');
+<?php
 session_start();
+ require('includes/header.php');
 ?>
 <?php require('./admin/config/dbcon.php'); ?>
 
@@ -357,7 +358,7 @@ session_start();
 <!-- ***************************************home8************************** -->
 <?php
 if (isset($_SESSION['cm_msg'])) {
-    echo "<script>alert(' .$_SESSION[cm_msg] .')</script>";
+    echo "<script>alert(' ".$_SESSION['cm_msg'] ."')</script>";
     unset($_SESSION['cm_msg']);
 }
 ?>
@@ -374,32 +375,32 @@ if (isset($_SESSION['cm_msg'])) {
                 </div>
                 <div class="home8_right_input col-md-6 bg-white p-5 ">
                     <form action="admin/connect.php" method="post" enctype=multipart/form-data>
-                        <div class="" style="gap:1rem 0;">
+                        <div class="row" style="gap:1rem 0;">
                             <div class="col-md-12">
                                 <div class="form-group">
-                                    <input type="text" class="form-control inp" name="name2" placeholder="Enter Name">
+                                    <input type="text" class="form-control inp" name="name2" placeholder="Enter Name" required>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="email" class="form-control inp " name="email2" placeholder="Enter email">
+                                    <input type="email" class="form-control inp " name="email2" placeholder="Enter email" required>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="tel" maxlength="10" class="form-control inp " onkeyup="val(this)" name="number2" placeholder="Number">
+                                    <input type="tel" maxlength="10" class="form-control inp " onkeyup="val(this)" name="number2" placeholder="Number" required>
                                     <p style="font-size: 0.7rem ; color:red; font-weight:500;" id="msg_number"></p>
                                 </div>
                             </div>
                             <div class="col-md-12">
                                 <div class="form-group">
-                                    <textarea name="message2" cols="30" rows="3" class="form-control inp " placeholder="Your Message"></textarea>
+                                    <textarea name="message2" cols="30" rows="3" class="form-control inp " placeholder="Your Message" required></textarea>
                                 </div>
                             </div>
                             <div class="col-md-12">
                                 <div class="form-group">
-                                    <label for="" style="color:#AE0101; display:block;" class="p-1 m-1 rounded text-center">Attach File here</label>
-                                    <input class="form-control border-0 shadow-none" name="files2" type="file">
+                                    <label for="" style="color:#AE0101; display:block;" class="p-1 m-1 rounded text-center">You can attache pictures of your ideas</label>
+                                    <input class="form-control border-0 shadow-none" name="files2" type="file" required>
                                 </div>
                             </div>
                             <div class="">

@@ -18,7 +18,7 @@ if (isset($_POST['submit'])) {
         header('location:../contact.php');
     }
     echo $_FILES['files']["size"];
-    $img_ext = ['png', 'jpg', 'jpeg','pdf'];
+    $img_ext = ['png', 'jpg', 'jpeg', 'pdf'];
 
     $file_ext = pathinfo($img, PATHINFO_EXTENSION);
 
@@ -29,27 +29,21 @@ if (isset($_POST['submit'])) {
         header('location:../contact.php');
     } else {
 
-        if (!in_array($file_ext,$img_ext)) {
-
+        if (!in_array($file_ext, $img_ext)) {
             $_SESSION['cm_msg'] = "img only in jpg  or jpeg ext";
-              header('location:../contact.php');
-} else {
-
-
+            header('location:../contact.php');
+        } else {
             $sql = "INSERT INTO contact(name,email,phone,message,pdf_file) VALUES('$name','$email','$number','$message','$img_name')";
-
             $connect_db = mysqli_query($con, $sql);
 
             if ($connect_db) {
                 move_uploaded_file($_FILES['files']['tmp_name'], 'upload/' . $img_name);
 
-                $_SESSION['cm_msg'] = "We Are Connect Soon....";
+                $_SESSION['cm_msg'] = "We Are Connect Soon...";
                 header('location:../contact.php');
-        
-
             } else {
 
-                $_SESSION['cm_msg'] = "Somthing went wrong";
+                $_SESSION['cm_msg'] = "Something went wrong";
                 header('location:../contact.php');
             }
         }
@@ -71,7 +65,7 @@ if (isset($_POST['submit2'])) {
         header('location:../index.php');
     }
     echo $_FILES['files2']["size"];
-    $img_ext2 = ['png', 'jpg', 'jpeg','pdf'];
+    $img_ext2 = ['png', 'jpg', 'jpeg', 'pdf'];
 
     $file_ext2 = pathinfo($img2, PATHINFO_EXTENSION);
 
@@ -82,10 +76,10 @@ if (isset($_POST['submit2'])) {
         header('location:../index.php');
     } else {
 
-        if (!in_array($file_ext2,$img_ext2)) {
+        if (!in_array($file_ext2, $img_ext2)) {
 
             $_SESSION['cm_msg'] = "img only in jpg  or jpeg ext";
-        header('location:../index.php');
+            header('location:../index.php');
         } else {
 
 
@@ -97,13 +91,11 @@ if (isset($_POST['submit2'])) {
                 move_uploaded_file($_FILES['files2']['tmp_name'], 'upload/' . $img_name2);
 
                 $_SESSION['cm_msg'] = "We Are Connect Soon....";
-        header('location:../index.php');
-        
-
+                header('location:../index.php');
             } else {
 
-                $_SESSION['cm_msg'] = "Somthing went wrong";
-        header('location:../index.php');
+                $_SESSION['cm_msg'] = "Something went wrong";
+                header('location:../index.php');
             }
         }
     }
