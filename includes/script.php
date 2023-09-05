@@ -112,6 +112,12 @@
     function myloc(){
         location.href ="https://goo.gl/maps/FWQjmHDVSgSBcCGL9";
     }
+    function callNow(){
+        location.href ="tel:919522299988";
+    }
+    function mailNow(){
+        location.href ="mailto:connect.completehome@gmail.com";
+    }
 </script>
 
 <!-- ------------------------------video_popup------------------------ -->

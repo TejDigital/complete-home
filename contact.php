@@ -1,4 +1,4 @@
-<?php 
+<?php
 session_start();
 require('includes/header.php');
 ?>
@@ -9,7 +9,7 @@ require('includes/header.php');
         <img src="./imgs/home4_bg1.png" alt="">
         <div class="top_hero_text">
             <h1>Contact</h1>
-           <p><a href="index.php">Home</a> /Contact</p> 
+            <p><a href="index.php">Home</a> /Contact</p>
         </div>
     </div>
 </div>
@@ -24,8 +24,8 @@ if (isset($_SESSION['cm_msg'])) {
     <div class="container">
         <div class="row mt-3">
             <div class="col-md-4 mb-3">
-                <div class="card  text-center">
-                    <div class="card-body">
+                <div class="card text-center">
+                    <div class="card-body" onclick="callNow()" style="cursor:pointer;">
                         <span class="material-symbols-outlined">call</span>
                         <div class="c2_box_contact mt-3">
                             <h5>CALL US</h5>
@@ -36,7 +36,7 @@ if (isset($_SESSION['cm_msg'])) {
             </div>
             <div class="col-md-4 mb-3">
                 <div class="card  text-center">
-                    <div class="card-body">
+                    <div class="card-body" onclick="mailNow()" style="cursor:pointer;">
                         <span class="material-symbols-outlined">mail</span>
                         <div class="c2_box_contact mt-3">
                             <h5>MAKE A QUOTE</h5>
@@ -47,7 +47,7 @@ if (isset($_SESSION['cm_msg'])) {
             </div>
             <div class="col-md-4 mb-3">
                 <div class="card text-center">
-                    <div class="card-body">
+                    <div class="card-body" onclick="myloc()" style="cursor:pointer;">
                         <span class="material-symbols-outlined">home</span>
                         <div class="c2_box_contact mt-3">
                             <h5>ADDRESS</h5>
@@ -98,7 +98,7 @@ if (isset($_SESSION['cm_msg'])) {
                                 </div>
                             </div>
                             <div class="col-md-12">
-                            <label for="" style="color:#AE0101; display:block;" class="p-1 m-1 rounded text-center">You can attache pictures of your ideas</label>
+                                <label for="" style="color:#AE0101; display:block;" class="p-1 m-1 rounded text-center">You can attache pictures of your ideas</label>
 
                                 <div class="form-group">
                                     <input class="form-control border-0 shadow-none" name="files" type="file" required>

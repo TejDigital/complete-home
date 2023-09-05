@@ -281,11 +281,9 @@ session_start();
                                 <div class="img-area">
                                     <img src="./imgs/avatar5.png" alt="">
                                 </div>
-                                <h5>Person's name</h5>
+                                <h5>Pradeep Sharma</h5>
                                 <p class="content">
-                                    Lorem Ipsum is simply dummy text of the printing and
-                                    typesetting industry. Lorem Ipsum has been the industry's standard dummy text
-                                    ever since
+                                "Complete Home : Their commitment to quality and security is unmatched. They turned my dream home into a reality, and I couldn't be happier. Highly recommended!"
                                 </p>
                             </div>
 
@@ -293,11 +291,9 @@ session_start();
                                 <div class="img-area">
                                     <img src="./imgs/avatar5.png" alt="">
                                 </div>
-                                <h5>Person's name</h5>
+                                <h5>Sanjay Mandavi</h5>
                                 <p class="content">
-                                    Lorem Ipsum is simply dummy text of the printing and
-                                    typesetting industry. Lorem Ipsum has been the industry's standard dummy text
-                                    ever since
+                                "Complete Home exceeded my expectations in every way! Their attention to detail and commitment to security gave me peace of mind. My dream home is not only stunning but also feels incredibly safe. Thank you for creating my sanctuary!"
                                 </p>
                             </div>
 
@@ -305,11 +301,9 @@ session_start();
                                 <div class="img-area">
                                     <img src="./imgs/avatar5.png" alt="">
                                 </div>
-                                <h5>Person's name</h5>
+                                <h5>Naresh Gupta</h5>
                                 <p class="content">
-                                    Lorem Ipsum is simply dummy text of the printing and
-                                    typesetting industry. Lorem Ipsum has been the industry's standard dummy text
-                                    ever since
+                                "Complete Home turned our dream into reality! Their dedication to quality and security is unmatched. Our home is not just beautiful, but we feel safe and at peace. Thank you for creating our perfect sanctuary!"
                                 </p>
                             </div>
 
@@ -317,11 +311,9 @@ session_start();
                                 <div class="img-area">
                                     <img src="./imgs/avatar5.png" alt="">
                                 </div>
-                                <h5>Person's name</h5>
+                                <h5>Mohan Deshmukh</h5>
                                 <p class="content">
-                                    Lorem Ipsum is simply dummy text of the printing and
-                                    typesetting industry. Lorem Ipsum has been the industry's standard dummy text
-                                    ever since
+                                "Complete : Their commitment to quality and security truly set them apart. From design to finish, they made my dream home a reality. I couldn't be happier!"
                                 </p>
                             </div>
 
@@ -329,11 +321,9 @@ session_start();
                                 <div class="img-area">
                                     <img src="./imgs/avatar5.png" alt="">
                                 </div>
-                                <h5>Person's name</h5>
+                                <h5>Rajat Patel</h5>
                                 <p class="content">
-                                    Lorem Ipsum is simply dummy text of the printing and
-                                    typesetting industry. Lorem Ipsum has been the industry's standard dummy text
-                                    ever since
+                                "Complete Home: They crafted a secure, stunning sanctuary that truly reflects my style. Their dedication to quality and attention to detail are unmatched. I'm thrilled with my dream home!"
                                 </p>
                             </div>
 
@@ -341,11 +331,9 @@ session_start();
                                 <div class="img-area">
                                     <img src="./imgs/avatar5.png" alt="">
                                 </div>
-                                <h5>Person's name</h5>
+                                <h5>Piyush Thakur</h5>
                                 <p class="content">
-                                    Lorem Ipsum is simply dummy text of the printing and
-                                    typesetting industry. Lorem Ipsum has been the industry's standard dummy text
-                                    ever since
+                                "Complete Home exceeded my expectations! Their attention to detail and commitment to security gave me peace of mind. My dream home is now a reality, reflecting my style and needs. Thank you for creating my sanctuary!"
                                 </p>
                             </div>
                         </div>
